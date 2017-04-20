@@ -1,15 +1,18 @@
 import React from 'react';
-import UserList from '../containers/user-list';
-import UserDetails from '../containers/user-detail';
+import SearchBar from '../containers/search-bar';
+import WeatherList from '../containers/weather-list';
+
 require('../../scss/style.scss');
 
 const App = () => (
-    <div>
-        <h2>User List</h2>
-        <UserList />
-        <hr />
-        <h2>User Details</h2>
-        <UserDetails />
+    <div className="container">
+      <div id="brand" className="jumbotron">
+        <div className="container">
+          <h1 className="display-3">The Weather App</h1>
+          <SearchBar />
+        </div>
+      </div>
+      <WeatherList />
     </div>
 );
 

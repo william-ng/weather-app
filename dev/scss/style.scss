@@ -1,5 +1,24 @@
-$primary: #006699;
+body {
+	margin: 32px;
+}
 
-h2 {
-	color: $primary;
+#brand {
+	h1 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+#possible-match {
+	position: absolute;
+	z-index: 2;
+}
+
+.card {
+	img {
+		margin: 10px;
+	}
+	.card-block {
+		border-top: 1px solid #eee;
+	}
 }
