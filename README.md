@@ -1,8 +1,6 @@
-![](http://i.imgur.com/DUiL9yn.png)
+# Experimental Weather App
 
-# React/Sass/Redux Boilerplate
-
-Boilerplate and guide for a React/Sass/Redux build.
+An experimental weather app using React, Redux
 
 ## Getting Started
 
@@ -23,11 +21,5 @@ Start the development server (changes will now update live in browser)
 
 To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 
-## Links
-
-- [Donate](https://www.patreon.com/thenewboston)
-- [thenewboston.com](https://thenewboston.com/)
-- [Facebook](https://www.facebook.com/TheNewBoston-464114846956315/)
-- [Twitter](https://twitter.com/bucky_roberts)
-- [Google+](https://plus.google.com/+BuckyRoberts)
-- [reddit](https://www.reddit.com/r/thenewboston/)
+## Note
+You will need to install CORS extension on Chrome to avoid No 'Access-Control-Allow-Origin'.
